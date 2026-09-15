@@ -1,5 +1,5 @@
 {
-  "name": "radiofracture-ai",
+  "name": "fracture-xray-frontend",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -7,12 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "train": "python scripts/train.py",
-    "preprocess": "python scripts/preprocess.py",
-    "augment": "python scripts/augmentations.py"
+    "preview": "vite preview"
   },
   "dependencies": {
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
     "jwt-decode": "^4.0.0",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
